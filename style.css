@@ -1,0 +1,165 @@
+.background{
+    background-image: url('https://lh4.googleusercontent.com/proxy/UWmS7mLz8-9dUckPyDN_kkzgFqECcSO7MchgHmU8rT8n3CPvbOBrkqqihlq0TeK3uoV2zQW-oOMxUIa9ly2x5gPkaBvcqoGT5qaiQ_n0cm3-JYcqYwOORm6u-o6MwAoyooBHqQniWqw=s0-d');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section.bg{
+    background-color: white;
+}
+
+div.margin{
+    margin-top: 10%;
+}
+
+div.box{
+    border: 2px solid white;
+    background-color: white;
+    padding: 50px;
+    height: auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+div.space{
+    margin-bottom: 15%;
+}
+
+h2.text-first{
+    font-family: 'Satisfy', cursive;
+    margin-top: 5%;
+}
+
+p.text{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+}
+
+img.round{
+    width: 120px;
+    height: 120px;
+    border: 2px solid gray;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    position: relative;
+    margin-top: 15%;
+}
+
+h2.text{
+    font-family: 'Satisfy', cursive;
+    margin-top: 5%;
+}
+
+hr.line{
+    width: 30%;
+}
+
+#underline{
+    --width: 10%;
+    --color: #FFAA28;
+    --position: center bottom;
+    --height: 3px;
+    background: linear-gradient(var(--color), var(--color)) var(--position) / var(--width) var(--height) no-repeat;
+    padding-bottom: 10px;
+}
+
+div.decoration{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #FFAA28;
+    background-color: #FFAA28;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    position: relative;
+}
+
+.cntr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cntr p{
+    font-size: 110%;
+    padding: 5px;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    overflow: hidden;
+    margin-left: -74%;
+}
+
+.cntr p span.typed-text{
+    font-weight: bold;
+    color: #FFAA28;
+}
+.cntr p span.cursor{
+    display: inline-block;
+    background-color: #FFAA28;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+.cntr p span.cursor.typing{
+    animation: none;
+}
+@keyframes blink{
+    0%  { background-color: #FFAA28; }
+    49% { background-color: #FFAA28; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #FFAA28; }
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a.contact{
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+li a.line{
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+li a.line:hover{
+    border-bottom: 2px solid #FFAA28;
+    position: relative;
+}
+
+@media only screen and (min-width: 400px) and (max-height: 882px){
+    h2.text-first{
+        text-align: center;
+    }
+
+    .cntr{
+        margin-left: 37%;
+    }
+
+    .phone{
+        margin-left: 37%;
+        padding-bottom: 25px;
+    }
+
+    .phone-contact{
+        margin-left: 26%;
+        padding-bottom: 25px;
+    }
+
+    img.round{
+        margin-bottom: 10%;
+        margin-left: 37%;
+    }
+}
